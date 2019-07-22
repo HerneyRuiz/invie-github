@@ -17,6 +17,22 @@
             max-width: 100%;
             vertical-align: top;
         }
+
+        #resposive img{
+            display: none;
+        }
+
+        @media screen and (max-width : 768px){
+
+            img{
+                display: none;
+            }
+
+            #resposive img{
+                display: block;
+            }
+        }
+
     </style>
 </head>
 
@@ -30,7 +46,7 @@
 
     <main>
 
-        <section>
+        <section >
             <img src="./hero.jpg" alt="">
         </section>
 
@@ -44,10 +60,13 @@
 
     </main>
 
+    <section id="resposive">
+        <img src="./invie-responsive.png" alt="">
+    </section>
+
     <footer>
         <img src="./footer.jpg" alt="">
     </footer>
-
 </body>
 
 </html>
